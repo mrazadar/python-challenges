@@ -1,0 +1,17 @@
+argcomplete==1.12.3
+blessed==1.19.1
+click==8.0.1
+codefind==0.1.3
+joblib==1.1.0
+jurigged==0.5.2
+nltk==3.7
+ovld==0.3.2
+packaging==21.0
+pipx==0.16.4
+pyparsing==2.4.7
+regex==2022.8.17
+six==1.16.0
+tqdm==4.64.0
+userpath==1.7.0
+watchdog==2.1.9
+wcwidth==0.2.5
