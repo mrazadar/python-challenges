@@ -1,8 +1,32 @@
-print('+-----------Interview Questions--------------+')
-# check if list contains integer x
-l = [3, 3, 4, 5, 2, 111, 5, 53, 2, 11, 4, 11, 1, 7, 56]
-n = 111
-print(n in l)
+# def reciprocal(num):
+#     try:
+#       if num == 0: raise ZeroDivisionError('cannot divide by zero.')
+#       r = 1/num
+#     except Exception as e:
+#         print('Exception caught:', e)
+#         return
+#     return r
+
+# print(reciprocal(10))
+# print(reciprocal(0))
+
+# a = ['x','y','z']
+# del a[a.index('y')]
+# print(a)
+# import asyncio
+
+# async def asyncFunc():
+#   print('hello1')
+#   await asyncio.sleep(5)
+#   print('hello2')
+
+# asyncio.run(asyncFunc())
+
+# print('+-----------Interview Questions--------------+')
+# # check if list contains integer x
+# l = [3, 3, 4, 5, 2, 111, 5, 53, 2, 11, 4, 11, 1, 7, 56]
+# n = 111
+# print(n in l)
 
 
 # print('+-----------NumPy--------------+')
