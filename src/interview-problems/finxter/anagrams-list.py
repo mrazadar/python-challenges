@@ -1,10 +1,12 @@
-# check if two strings are anagrams 
+# check if two strings are anagrams to each other
 # anagram meaning: a word or phrase made by transposing (re-arrange) the letters of another word.
 # phrase meaning: a group of two or more words that express a single idea but do not form a complete sentence
 
+# debit card = Bad credit
+# school master = The classroom
 
 # raza implementation
-def checkAnagrams(str1, str2):
+def is_anagram(str1, str2):
   if(len(str1) < len(str2)): False
   isAnagram = True
   for l in str1:
@@ -20,7 +22,7 @@ def checkAnagrams(str1, str2):
 
 
 # finxter implementation
-def is_anagram(s1, s2):
+def f_is_anagram(s1, s2):
   return set(s1.lower()) == set(s2.lower())
 
 
@@ -34,10 +36,10 @@ for w in list('Ya jo aag ha, teri yado ki'.split()):
   print(w)
 print("---------testing anagrams function----------")
 
-print(checkAnagrams('secure', 'rescue'))
-print(checkAnagrams('Hamlet', 'amleth'))
-print(checkAnagrams('Glen, Duncen', 'Declan. Gunn'))
-
 print(is_anagram('secure', 'rescue'))
 print(is_anagram('Hamlet', 'amleth'))
 print(is_anagram('Glen, Duncen', 'Declan. Gunn'))
+
+print(f_is_anagram('secure', 'rescue'))
+print(f_is_anagram('Hamlet', 'amleth'))
+print(f_is_anagram('Glen, Duncen', 'Declan. Gunn'))

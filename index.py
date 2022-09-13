@@ -1,3 +1,26 @@
+from glob import glob
+
+
+globvar = 10
+my_dict = {"name": "saleem"};
+def read1():
+    print(globvar)
+def write1():
+    my_dict['name'] = "jameel"
+    global globvar
+    globvar = 5
+def write2(num):
+    num = 15
+    print("inside func", num)
+
+
+print(read1())
+print(write1())
+print(read1())
+print(write2(globvar))
+print(read1())
+print(my_dict)
+    
 # def reciprocal(num):
 #     try:
 #       if num == 0: raise ZeroDivisionError('cannot divide by zero.')
